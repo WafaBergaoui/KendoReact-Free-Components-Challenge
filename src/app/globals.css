@@ -24,3 +24,259 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.k-card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.k-card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.k-card-body {
+  font-size: 1rem;
+}
+
+.k-button {
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.k-button:hover {
+  background-color: var(--kendo-color-primary-hover) !important;
+  color: var(--kendo-color-primary-subtle) !important;
+  transition: background-color 0.3s ease;
+}
+
+/* Sidebar toggle button */
+.sidebar-toggle {
+  background-color: transparent;
+  border: none;
+  color: var(--kendo-color-on-secondary);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.sidebar-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.dashboard-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: end;
+}
+
+.layout-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar-container {
+  background-color: var(--kendo-color-primary);
+  color: var(--kendo-color-on-secondary);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+  top: 0;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+.sidebar-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sidebar-user {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10;
+}
+
+.user-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.user-subTitle {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.collapse-button {
+  background-color: transparent;
+  border: none;
+  color: var(--kendo-color-on-secondary);
+  cursor: pointer;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.sidebar-buttons {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: var(--kendo-color-primary);
+  border: none;
+  border-style: none;
+  padding: 10px;
+  color: var(--kendo-color-on-secondary);
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  box-shadow: none;
+}
+
+.sidebar-hr {
+  height: 5;
+  width: 100%;
+}
+
+.logout-button {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  color: var(--kendo-color-on-secondary);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: none;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: var(--kendo-color-on-secondary);
+  color: var(--kendo-color-dark-active);
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.container {
+  padding: "20px";
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.formContainer {
+  text-align: left;
+}
+
+.input {
+  width: 100%;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.submitButton {
+  width: "100%";
+  color: var(--kendo-color-on-secondary);
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.successMessage {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: var(--kendo-color-success);
+  font-weight: 600;
+}
+
+.financial-overview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  margin-bottom: 20px;
+  .financial-card {
+    padding: 10px;
+  }
+}
+
+.financeAdviceArea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: var(--kendo-color-primary);
+  color: var(--kendo-color-on-secondary);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.adviceForm {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.chart-grid {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  .chart-card {
+    padding: 10px;
+  }
+}
+
+.chart-buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .financial-overview {
+    grid-template-columns: 1fr;
+  }
+  .chart-buttons {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
