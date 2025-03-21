@@ -1,7 +1,7 @@
 export const getAIAdvice = async (
   prompt: string,
-  setAdvice: Function,
-  setLoading: Function
+  setAdvice: (advice: string) => void,
+  setLoading: (loading: boolean) => void
 ) => {
   setLoading(true);
   try {

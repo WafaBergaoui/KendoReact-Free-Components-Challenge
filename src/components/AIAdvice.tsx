@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, FormEvent } from "react";
 import { Button } from "@progress/kendo-react-buttons";
 import { getAIAdvice } from "../services/aiService";
 
@@ -9,7 +9,7 @@ export default function AIAdvice() {
   const [advice, setAdvice] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const handleSubmit = async (e: any) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     await getAIAdvice(prompt, setAdvice, setLoading);
   };

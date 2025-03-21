@@ -19,12 +19,24 @@ const BudgetPlanner = () => {
       </p>
       <div className="formContainer">
         <Form
-          onSubmit={(data: BudgetForm) => {
-            alert(JSON.stringify(data));
+          onSubmit={(values: { [name: string]: unknown }) => {
+            // Validate the shape of the values object
+            if (
+              typeof values.category === "string" &&
+              typeof values.amount === "number"
+            ) {
+              const data: BudgetForm = {
+                category: values.category,
+                amount: values.amount,
+              };
+              alert(JSON.stringify(data));
+            } else {
+              console.error("Invalid form data");
+            }
           }}
           render={(formRenderProps) => (
             <FormElement>
-              <Field className="input" label="Category" component={Input} />
+              <Field className="input" name="category" label="Category" component={Input} />
               <Field
                 className="input"
                 name="amount"

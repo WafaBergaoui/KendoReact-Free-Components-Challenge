@@ -12,6 +12,7 @@ import {
   logoutIcon,
 } from "@progress/kendo-svg-icons";
 import { Tooltip } from "@progress/kendo-react-tooltip";
+import Image from "next/image";
 import Link from "next/link";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
@@ -43,9 +44,11 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 {!collapsed && (
                   <div className="sidebar-user">
                     <Avatar rounded="full" type="image">
-                      <img
-                        src="https://media.istockphoto.com/id/2168361163/photo/smiling-woman-enjoying-her-time-at-outdoor-cafe.webp?s=1024x1024&w=is&k=20&c=MxOIq7JQ7JYUXTIWwUgp9eX1RGMcYibp3dQ40XCl7HI="
-                        alt="User Avatar"
+                      <Image
+                        src="/pictures/emma.jpg"
+                        alt="Test Woman Image"
+                        width={100}
+                        height={100}
                       />
                     </Avatar>
                     <div>
