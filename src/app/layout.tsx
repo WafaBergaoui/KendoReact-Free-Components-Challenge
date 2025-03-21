@@ -14,6 +14,8 @@ import {
 import { Tooltip } from "@progress/kendo-react-tooltip";
 import Image from "next/image";
 import Link from "next/link";
+import "../../public/custom-theme.css";
+import "./globals.css";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   const [collapsed, setCollapsed] = useState(false);
