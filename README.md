@@ -51,8 +51,8 @@ Fiscally is designed as a **modern financial dashboard**, integrating multiple K
 Clone this repository and install dependencies:  
 
 ```sh
-git clone https://github.com/your-username/fiscally-kendo-challenge.git  
-cd fiscally-kendo-challenge  
+git clone https://github.com/WafaBergaoui/KendoReact-Free-Components-Challenge.git 
+cd KendoReact-Free-Components-Challenge
 npm install  
 npm run dev  
 ```
