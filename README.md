@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📊 Fiscally - KendoReact Challenge Submission  
 
-## Getting Started
+**Fiscally** is a feature-rich **financial dashboard** built using **KendoReact Free Components**, created as a submission for the [KendoReact Free Components Challenge](https://dev.to/challenges/kendoreact).  
 
-First, run the development server:
+🚀 **Live Demo**: [Fiscally - KendoReact Challenge App](https://fiscally-kendo-react-challenge.vercel.app/)  
+📖 **Submission Article**: [DEV Community Post](https://dev.to/wafa_bergaoui/kendoreact-free-components-challenge-5bel-temp-slug-5186562?preview=0e5399c5edcd5ae9c9873c620995e6dee45df0ee462714f68df14b1c75c13fdc6e901a2434a59b92e93bee41055dfb84dbb074f4e0ee013cd8c440d5)  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🏆 About the Challenge  
+
+The [KendoReact Free Components Challenge](https://dev.to/challenges/kendoreact) is an event where developers showcase what they can build using **at least 10 KendoReact Free Components**.  
+Prizes include cash rewards, exclusive DEV badges, and memberships for top submissions.  
+
+### 🔹 Challenge Criteria:
+- Utilize at least **10 free KendoReact components**.
+- Build an engaging and functional React app.
+- Optionally, use **ThemeBuilder** or **Figma UI Kits** for design.  
+
+---
+
+## 🎨 Features & KendoReact Components Used  
+
+Fiscally is designed as a **modern financial dashboard**, integrating multiple KendoReact components:  
+
+✅ **Data Grid** - Interactive financial data tables.  
+✅ **Charts** - Visual analytics and reports.  
+✅ **Date Inputs** - Advanced date pickers for reports.  
+✅ **Dropdowns** - Smart selection inputs for filtering.  
+✅ **Form Components** - Seamless input fields for user interaction.  
+✅ **Dialogs & Popups** - Intuitive modals for user actions.  
+✅ **Scheduler** - Event tracking and financial planning.  
+✅ **Buttons & Layout Components** - Smooth UI/UX integration.  
+✅ **Tooltips** - Enhanced user experience with hover details.  
+✅ **Progress Indicators** - Dynamic feedback for operations.  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Framework**: Next.js  
+- **UI Components**: KendoReact  
+- **Styling**: TailwindCSS  
+- **Data Management**: React Hooks, State Management  
+- **Deployment**: Vercel  
+
+---
+
+## 🚀 Installation & Setup  
+
+Clone this repository and install dependencies:  
+
+```sh
+git clone https://github.com/your-username/fiscally-kendo-challenge.git  
+cd fiscally-kendo-challenge  
+npm install  
+npm run dev  
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run the app locally at http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Contribution & Feedback
 
-## Learn More
+Your feedback is welcome! Feel free to open an issue or fork the repository for improvements.
 
-To learn more about Next.js, take a look at the following resources:
+📩 Connect with me on DEV Community: [@wafa_bergaoui](https://dev.to/wafa_bergaoui) 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Happy coding! 🚀
