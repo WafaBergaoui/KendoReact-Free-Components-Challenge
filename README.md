@@ -3,7 +3,7 @@
 **Fiscally** is a feature-rich **financial dashboard** built using **KendoReact Free Components**, created as a submission for the [KendoReact Free Components Challenge](https://dev.to/challenges/kendoreact).  
 
 🚀 **Live Demo**: [Fiscally - KendoReact Challenge App](https://fiscally-kendo-react-challenge.vercel.app/)  
-📖 **Submission Article**: [DEV Community Post](https://dev.to/wafa_bergaoui/kendoreact-free-components-challenge-5bel-temp-slug-5186562?preview=0e5399c5edcd5ae9c9873c620995e6dee45df0ee462714f68df14b1c75c13fdc6e901a2434a59b92e93bee41055dfb84dbb074f4e0ee013cd8c440d5)  
+📖 **Submission Article**: [DEV Community Post](https://dev.to/wafa_bergaoui/kendoreact-free-components-challenge-4b8o)  
 
 ---
 
